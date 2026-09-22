@@ -2,6 +2,8 @@
 
 > **A modern, academic-grade full-stack personal wealth operating system with rule-based AI spending insights, financial health scoring, debt payoff modeling, and gamified savings discipline.**
 
+🌐 **Live Demo Website:** [https://fin-wise-intelligent-personal-finan.vercel.app](https://fin-wise-intelligent-personal-finan.vercel.app)
+
 ---
 
 ## Project Overview
