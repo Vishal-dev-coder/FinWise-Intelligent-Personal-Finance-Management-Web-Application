@@ -357,21 +357,6 @@ node server.js
 
 ---
 
-## Academic Project Evaluation Checklist
-
-- [x] Full-Stack Architecture (React + Node.js + Express + MongoDB)
-- [x] Secure Authentication (JWT, Bcrypt, Protected Routes, RBAC)
-- [x] Comprehensive Personal Finance Tracking (Income, Expenses, Budgets, Goals, Debts, Investments, Bills)
-- [x] Intelligent Financial Health Score Calculation (0–100 multi-factor formula)
-- [x] Behavioral & AI Spending Insights (No-Spend tracker, Mood analysis, Leakage detector)
-- [x] Interactive Charts (Recharts Area, Line, Donut, and Bar charts)
-- [x] Modern UI/UX (Tailwind CSS, Glassmorphism, Dark/Light Mode, Responsive Design)
-- [x] Data Exporting (CSV download and print-ready PDF reports)
-- [x] Dedicated Administrative Portal (User management, Tips CMS, Audit logging)
-- [x] Database Seeder Script (Instant multi-month realistic demo data)
-
----
-
 ## Author & Copyright
 
 **FinWise** is designed and developed by **Vishal Prasad Gupta**.
