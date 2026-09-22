@@ -1,7 +1,23 @@
 import axios from 'axios';
 
+const getBaseURL = () => {
+  let url = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').trim();
+  // Strip markdown formatting if accidentally pasted as [url](url)
+  const mdMatch = url.match(/\((https?:\/\/[^\s)]+)\)/);
+  if (mdMatch) {
+    url = mdMatch[1];
+  }
+  // Remove trailing slashes
+  url = url.replace(/\/+$/, '');
+  // Ensure /api is appended if missing
+  if (!url.endsWith('/api')) {
+    url = `${url}/api`;
+  }
+  return url;
+};
+
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+  baseURL: getBaseURL(),
   headers: {
     'Content-Type': 'application/json',
   },
